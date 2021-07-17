@@ -73,6 +73,8 @@ export default function SimpleCard() {
           <Typography variant="body2" component="p">
          Funding via Crunchbase
           <br />
+          Series D
+          <br />
          US$ 50M
         </Typography>
 

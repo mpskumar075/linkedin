@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import LogoImage from '../images/linkedin.png';
 import './MainGrid.css';
+import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,20 +46,24 @@ export default function CenteredGrid() {
           <SideListCard />
           <Typography className={classes.custompadding} />
            <Typography variant="body2" gutterBottom>
-        About       Accessibility   Help CenteredGrid
-<br />
-        Privacy & Terms         Ad Choices
-
-        Advertising     Buisness Services
-
-        Get the LinkedIn App
+                         About &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accessibility &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Help Centered
+         
+            
+            <Typography className={classes.custompadding} />
+        Privacy & Terms    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Ad Choices
+<Typography className={classes.custompadding} />
+        Advertising  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Buisness Services 
+<Typography className={classes.custompadding} />
+        Get the LinkedIn App &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <MoreHorizIcon />
       </Typography>
   <Typography className={classes.custompadding} />
       <Divider />
        <Typography className={classes.custompadding} />
+
        <Typography align="right"  variant="body2" gutterBottom>
        Linkedin © 2021
        </Typography>
+
        <img className="logoimage" src={LogoImage} />
        
         </Grid>
